@@ -1,0 +1,39 @@
+{
+    "id": "myapp",
+    "name": "My App",
+    "version: "1.0.0",
+    "description": "An app that shows something about My self",
+    "keywords": [ "My", "self"],
+    "homepage": "https://my-self.server.com",
+    "bugs": {
+        "url": "https://my-self.server.com/issues",
+        "email": "issues@my-self.server.com"
+    } ,
+    "i18n": { 
+        "localized": true,
+        "defaultLocale": "en"
+    }
+    "mainFile": "main.js",
+    "components": [
+        {
+            "id": "self-explanatory-list",
+            "type": "App",
+           "accepts": [
+                {
+                    "types": ["application/xena.partner", "application/xena.order"]
+                },
+                {
+                    "schemes": ["file"],
+                    "types": ["application/pdf", "image/*"]
+                }
+            ]
+        },
+        {
+            "id": "self-focus",
+            "type": "Widget"
+        }, {
+            "id": "self-promote",
+            "type": "Widget"
+        }
+    },
+}
