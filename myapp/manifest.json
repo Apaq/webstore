@@ -18,6 +18,7 @@
         {
             "id": "self-explanatory-list",
             "type": "App",
+            "name": "Self Explanatory List",
            "accepts": [
                 {
                     "types": ["application/xena.partner", "application/xena.order"]
@@ -30,7 +31,8 @@
         },
         {
             "id": "self-focus",
-            "type": "Widget"
+            "type": "Widget",
+            "name": "Self Explanatory Widget",
         }, {
             "id": "self-promote",
             "type": "Widget"
