@@ -32,10 +32,11 @@
         {
             "id": "self-focus",
             "type": "Widget",
-            "name": "Self Explanatory Widget",
+            "name": "Self Explanatory Widget"
         }, {
             "id": "self-promote",
-            "type": "Widget"
+            "type": "Widget",
+            "name": "Self Promote Widget"
         }
     ]
 }
